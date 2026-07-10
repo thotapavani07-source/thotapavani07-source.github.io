@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pavani Thota — About Me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+  body {
+        margin: 0;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffd1e8, #d1e8ff, #fff5ba);
+          background-size: 400% 400%;
+    animation: gradientMove 12s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+  @keyframes gradientMove {
+        0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+  .card {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 30px;
+    max-width: 480px;
+    width: 100%;
+    padding: 40px 36px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+    backdrop-filter: blur(6px);
+    position: relative;
+    }
+  .avatar {
+        width: 120px;
+    height: 120px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ff9ec4, #a1c4fd);
+          display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 52px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    animation: float 3.5s ease-in-out infinite;
+  }
+  @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+  h1 {
+        font-family: 'Pacifico', cursive;
+    font-size: 34px;
+    margin: 0 0 6px;
+    color: #d6336c;
+    }
+  .headline {
+        font-size: 14.5px;
+    color: #6c5ce7;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+  .location {
+        font-size: 13.5px;
+    color: #888;
+    margin-bottom: 18px;
+}
+  .bio {
+        font-size: 14.5px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 22px;
+    text-align: left;
+}
+  .tags {
+        display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+  .tag {
+        background: #fff0f6;
+            color: #d6336c;
+                padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12.5px;
+    font-weight: 600;
+    border: 1px solid #ffd6e8;
+      }
+  .links {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+  .links a {
+        text-decoration: none;
+    background: linear-gradient(135deg, #ff9ec4, #a1c4fd);
+          color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 13.5px;
+    font-weight: 600;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+    transition: transform 0.2s ease;
+  }
+  .links a:hover {
+        transform: translateY(-3px) scale(1.04);
+  }
+  .footer-note {
+        margin-top: 26px;
+    font-size: 11.5px;
+    color: #aaa;
+    }
+</style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="avatar">👩‍💻</div>
+      <h1>Hi, I'm Pavani! ✨</h1>
+          <div class="headline">QA &amp; Automation Testing Enthusiast · Selenium · TestNG · Postman · JMeter · CI/CD &amp; API Testing</div>
+          <div class="location">📍 Chicago, Illinois &nbsp;|&nbsp; 🎓 MS Computer Science</div>
+    <div class="bio">
+      I love making software work beautifully — from writing rock-solid automated test suites with Selenium WebDriver and TestNG, to exploring API testing with Postman and JMeter, to setting up smooth CI/CD pipelines. 💻<br><br>
+            Lately I've been having fun diving into Power BI, sharpening my Git fundamentals, and geeking out over how AI and human creativity can work together (augmented intelligence, anyone? 🤖💡).
+    </div>
+          <div class="tags">
+            <span class="tag">🧪 QA Automation</span>
+      <span class="tag">🔧 Selenium</span>
+            <span class="tag">📊 Power BI</span>
+            <span class="tag">🔁 CI/CD</span>
+          </div>
+          <div class="links">
+            <a href="https://www.linkedin.com/in/thotapavani" target="_blank">🔗 LinkedIn</a>
+            <a href="https://github.com/thotapavani07-source" target="_blank">🐙 GitHub</a>
+          </div>
+          <div class="footer-note">Made with 💗 and a little bit of code</div>
+        </div>
+      </body>
+      </html>
+      
